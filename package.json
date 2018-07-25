@@ -1,0 +1,8 @@
+{
+  "name": "game-of-life-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jcarlosmejiaayala/game-of-life-challenge.git",
+  "author": "jcarlosmejiaayala <jcarlosmejiaayala@gmail.com>",
+  "license": "MIT"
+}
