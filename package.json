@@ -10,7 +10,7 @@
     "dev": "webpack-dev-server --open --progress",
     "pretest": "yarn lint",
     "test": "jest",
-    "lint": "eslint --ignore-path .gitignore",
+    "lint": "eslint . --ignore-path .gitignore",
     "lint:fix": "yarn lint --fix",
     "precommit": "lint-staged",
     "prepush": "yarn test"
