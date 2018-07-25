@@ -3,11 +3,13 @@ import { injectGlobal } from 'styled-components'
 
 export default injectGlobal`
     ${styledNormalize}
+    * {
+        box-sizing: border-box;
+    }
     html {
         height: 100%;
     }
     body {
-        box-sizing: content-box;
         font-family:  Verdana, sans-serif;
         font-size: 16px;
         height: 100%;

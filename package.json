@@ -24,12 +24,16 @@
   },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.54",
+    "@babel/plugin-proposal-async-generator-functions": "^7.0.0-beta.54",
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.54",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.54",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.54",
+    "@babel/polyfill": "^7.0.0-beta.54",
     "@babel/preset-env": "^7.0.0-beta.54",
     "@babel/preset-react": "^7.0.0-beta.54",
     "babel-eslint": "^8.2.6",
     "babel-loader": "8.0.0-beta.4",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -72,7 +76,8 @@
       ".*\\.(css|less|styl|scss|sass)$": "<rootDir>/internals/mocks/cssModule.js",
       "Components(.*)$": "<rootDir>/src/Components/$1",
       "Routes(.*)$": "<rootDir>/src/Routes/$1",
-      "Store(.*)$": "<rootDir>/src/Store/$1"
+      "Store(.*)$": "<rootDir>/src/Store/$1",
+      "Styled(.*)$": "<rootDir>/src/Styled/$1"
     },
     "testEnvironment": "jsdom",
     "testMatch": [
@@ -88,7 +93,8 @@
       "react"
     ],
     "plugins": [
-      "babel-plugin-transform-class-properties"
+      "babel-plugin-transform-class-properties",
+      "babel-plugin-transform-async-to-generator"
     ]
   }
 }
