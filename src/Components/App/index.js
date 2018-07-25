@@ -1,5 +1,7 @@
 import React from 'react'
 
-const App = () => <div>Hello world</div>
+import { Provider } from 'Store'
+
+const App = ({ children }) => <Provider>{children}</Provider>
 
 export default App

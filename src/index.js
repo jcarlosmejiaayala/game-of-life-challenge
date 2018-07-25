@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-import App from 'Components/App'
+import Routes from 'Routes'
+import './globalStyles'
 
-render(<App />, document.getElementById('root'))
+render(<Routes />, document.getElementById('root'))
