@@ -1,1 +1,1 @@
-# game-of-life-challenge
+# Game of life challenge
