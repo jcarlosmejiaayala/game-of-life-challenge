@@ -81,7 +81,7 @@
     },
     "testEnvironment": "jsdom",
     "testMatch": [
-      "<rootDir>/src/**/*.spec.js?(x)"
+      "<rootDir>/src/**/unit.js"
     ],
     "setupFiles": [
       "<rootDir>/testing.setup.js"
