@@ -15,11 +15,18 @@ docker-compose up
 then, open the browser and go to `localhost:3000`.
 
 
-If the Docker way doesn't work for you, rename `.env_example` to `.env` and run the command below:
+If the Docker mode doesn't work for you, first install yarn globally by npm or any package manager of your choice, then rename `.env_example` to `.env`, in case that modules aren't installed you will need to run the command below, otherwise, so skip the installation and go to the next step below.
+
+```
+yarn install
+
+```
+
+Run the command below to initiliaze the project
 
 ```
 yarn dev
 
 ```
 
-As same as the docker way, you'll have the app running in you local and to see it you should go to `localhost:3000`
+As with docker, you will have the app running in you local and to see it you should go to `localhost:3000`

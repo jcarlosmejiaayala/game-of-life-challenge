@@ -91,7 +91,7 @@ const base = {
 const development = {
   mode: 'development',
 
-  devtool: 'cheap-source-map',
+  devtool: 'source-map',
 
   devServer: {
     port,

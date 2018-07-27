@@ -14,4 +14,4 @@ services:
     entrypoint:
       - yarn
     command:
-      - dev
+      - dev:docker

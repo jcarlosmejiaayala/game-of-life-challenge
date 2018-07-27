@@ -8,6 +8,7 @@
   "scripts": {
     "start": "webpack",
     "dev": "webpack-dev-server --open --progress",
+    "dev:docker": "yarn && yarn dev",
     "pretest": "yarn lint",
     "test": "jest",
     "lint": "eslint . --ignore-path .gitignore",
