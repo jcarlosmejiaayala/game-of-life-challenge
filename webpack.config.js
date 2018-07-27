@@ -18,7 +18,7 @@ const IS_OPTIMIZED = NODE_ENV !== 'development'
 const base = {
   target: 'web',
 
-  entry: entryPointFilePath,
+  entry: ['@babel/polyfill', entryPointFilePath],
 
   output: {
     libraryTarget: 'var',
