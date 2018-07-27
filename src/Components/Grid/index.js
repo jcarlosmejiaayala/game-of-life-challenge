@@ -4,7 +4,7 @@ import React from 'react'
 import Cell from 'Components/Cell'
 import StyledGrid from 'Styled/StyledGrid'
 
-const Grid = ({ cells, size }) => (
+const Grid = ({ cells = [[]], size = 0 }) => (
   <StyledGrid size={size}>
     {cells.map((innerCells, outerIndex) =>
       innerCells.map((isAlive, innerIndex) => (
